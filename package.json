@@ -7,7 +7,7 @@
     "debug": "midway-bin debug --ts",
     "clean": "easy clean all",
     "mbuild": "midway-bin build",
-    "build": "easy build prod",
+    "build": "easy build prod && midway-bin build -c",
     "start": "egg-scripts start --port 7001 --workers 4",
     "backend": "nohup egg-scripts start --port 7001 --workers 4 &",
     "stop": "egg-scripts stop",

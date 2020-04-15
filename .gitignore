@@ -14,10 +14,10 @@ artifacts.json
 _site
 logs
 .vscode
-config/buildConfig.json
-config/manifest.json
-config/manifest-dll.json
-app/view/*
+src/config/buildConfig.json
+src/config/manifest.json
+src/config/manifest-dll.json
+src/app/view/*
 !app/view/layout.html
 !app/view/README.md
 !app/view/.gitkeep
