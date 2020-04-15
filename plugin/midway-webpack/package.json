@@ -1,0 +1,6 @@
+{
+  "name": "midway-webpack",
+  "eggPlugin": {
+    "name": "webpack"
+  }
+}
